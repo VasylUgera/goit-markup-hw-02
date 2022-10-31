@@ -2,3 +2,32 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+.header {
+
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.header-nav {}
+
+.header-nav-link {}
