@@ -4,9 +4,8 @@ body{
 
 
 .header {
-
+   
 }
-
 .logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -14,20 +13,45 @@ body{
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
-    color: #2196F3;
-
+    color: #2196F3; 
 }
-
-.header-logo {
+.logo-studio {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
+    color: #000000;
+}
+.header-nav {
+    list-style: none;    
+}
+.header-nav-link {
+    color: #212121;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #2196F3;;
+}
+.header-nav-link:active {
     color: #000;
 }
 
-.header-nav {}
 
-.header-nav-link {}
+.footer {
+    background-color:#2F303A;
+}
+
+.logo-footer{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+
