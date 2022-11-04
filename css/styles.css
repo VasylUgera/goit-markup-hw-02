@@ -1,17 +1,18 @@
 body{
     font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
 
 
 
 ul{
-    list-style: none;    
+    list-style: none;
 }
 
-.header-nav-link {
+.header-nav-link{
     text-decoration: none;
 }
-
+/*-----------------------Header--------------------*/
 
 .logo {
     font-family: 'Raleway';
@@ -20,7 +21,9 @@ ul{
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
-    color: #2196F3; 
+    color: #2196F3;
+    text-decoration: none;
+     
 }
 .logo-studio {
     font-family: 'Raleway';
@@ -48,21 +51,33 @@ ul{
     color: #000;
 }
 
-.header-contact{
+.header-nav-mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.02em;
     color: #2196F3;
+    text-decoration: none;
+}
+.header-nav-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
 }
 
 
 
+
+/*---------------Footer-------------------*/
 
 .footer {
     background-color:#2F303A;
-
 }
+
+
 
 .logo-footer{
     font-family: 'Raleway';
@@ -72,6 +87,8 @@ ul{
     line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #ffffff;
+    
 }
+
 
 
