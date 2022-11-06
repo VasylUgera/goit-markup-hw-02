@@ -5,14 +5,18 @@ body{
 
 
 
-ul{
+.list {
     list-style: none;
 }
+/*ul {
+    list-style: none;
+}*/
 
-.header-nav-link{
+/*a {
     text-decoration: none;
-}
-/*-----------------------Header--------------------*/
+}*/
+
+/*-------------header-nav--------------*/
 
 .logo {
     font-family: 'Raleway';
@@ -25,6 +29,7 @@ ul{
     text-decoration: none;
      
 }
+
 .logo-studio {
     font-family: 'Raleway';
     font-style: normal;
@@ -33,9 +38,13 @@ ul{
     line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #000000;
+}    
+
+.site-nav a {
+    text-decoration: none;
 }
 
-.header-nav-link {
+.site-nav .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -43,15 +52,48 @@ ul{
     color: #212121;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: #2196F3;;
 }
-.header-nav-link:active {
-    color: #000;
+.site-nav .link:active {
+    color: #000000;
 }
 
-.header-nav-mail{
+.header-nav-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575
+}
+
+.header-nav-mail:hover {
+    color: #2196F3;
+}
+.header-nav-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575
+}
+
+/*.header-nav-link:focus {
+    color: #2196F3;;
+}
+
+
+
+/*-----------------------Header--------------------*/
+
+
+
+
+
+
+
+.auth-nav {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -69,6 +111,14 @@ ul{
 }
 
 
+/*---------------Тези для бізнесу---------------*/
+
+
+/*--------------Чим ми зайцмаємось--------------*/
+
+
+
+/*---------------Наша команда---------------*/
 
 
 /*---------------Footer-------------------*/
