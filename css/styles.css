@@ -3,6 +3,8 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary--white-color: #ffffff;
+    --button-active-color: #18BCEB;
+   
 }
 
 
@@ -157,15 +159,43 @@ body{
     background-color: var(--primary--white-color);
 }
 */
+/*.button: hover,*/
+/*.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background: var(--primary--white-color);
+}*/
 
 
-.button {
+.hero .button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8750;   
-    display: flex;
     align-items: center;    
     letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--primary--white-color);
+}
+.hero .button:hover,
+.hero .button:focus {
+    background-color: var(--button-active-color);
+}
+
+
+.portfolio .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
     background-color: var(--accent-color);
     color: var(--primary--white-color);
 }
