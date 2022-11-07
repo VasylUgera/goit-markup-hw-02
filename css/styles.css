@@ -2,15 +2,16 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primary--white-color: #ffffff;
 }
 
 
 
-body{
-    
+body{    
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
     color: var(--primary-text-color);
+    cursor: pointer;
 }
 
 /*.cursors {
@@ -35,8 +36,7 @@ body{
     line-height: 1.1923;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    text-decoration: none;
-     
+    text-decoration: none;     
 }
 
 .logo-studio {
@@ -143,18 +143,33 @@ body{
 
 
 /*Buttom*/
-.button {
+/*
+.button{
+    color: var(--title-text-color);
+    background-color: var(--primary--white-color);
+}
+.button.primary {
+    color: var(--primary--white-color);
     background-color: var(--accent-color);
+}
+.button.secondary{
+    color: var(--accent-color);
+    background-color: var(--primary--white-color);
+}
+*/
+
+
+.button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.8750;
-    /* identical to box height, or 188% */
+    line-height: 1.8750;   
     display: flex;
-    align-items: center;
-    text-align: center;
+    align-items: center;    
     letter-spacing: 0.06em;
-    color: #FFFFFF
+    background-color: var(--accent-color);
+    color: var(--primary--white-color);
 }
+
 
 .section-title {
     font-weight: 700;
@@ -165,14 +180,15 @@ body{
     color: var(--title-text-color);
 }
 
-.caption{
+.caption {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;  
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
+
 .text {
     font-weight: 400;
     font-size: 14px;
@@ -183,7 +199,7 @@ body{
 }
 
 /*---------------Тези для бізнесу---------------*/
-.feature-list .title{
+.feature-list .title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1428px;
@@ -198,24 +214,22 @@ body{
 
 /*---------------Наша команда---------------*/
 
-.caption-time{
+.caption-time {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
-/* identical to box height */
     text-align: start;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
-,.caption-time .text {
+.caption-time .text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
-/* identical to box height */
     text-align: start;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 /*---------------Footer-------------------*/
 
@@ -232,9 +246,9 @@ body{
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
-    color: #ffffff;
-    
+    color: var(--primary--white-color);    
 }
+
 .list .item{
     font-weight: 400;
     font-style: normal;
@@ -242,7 +256,7 @@ body{
     line-height: 1.7142;
     /* or 171% */
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--primary--white-color);
 }
 
 .footer .link,
