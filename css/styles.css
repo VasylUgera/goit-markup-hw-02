@@ -2,7 +2,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primary--white-color: #ffffff;
+    --primary--white-color: #FFFFFF;
     --button-active-color: #188CEB;  
 }
 
@@ -12,7 +12,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary--white-color);
     color: var(--primary-text-color);
-    cursor: pointer;
 }
 
 /*.cursors {
@@ -177,14 +176,20 @@ body{
 }*/
 
 
+
+
+
 .hero .button {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8750;   
     align-items: center;    
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
-    color: var(--primary--white-color);    
+    color: var(--primary--white-color); 
+    cursor: pointer ;   
 }
 
 
@@ -194,13 +199,19 @@ body{
 }
 
 
+
+
+
 .portfolio .button {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    cursor: pointer;
 }
 
 .portfolio .button:hover,
